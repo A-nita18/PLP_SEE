@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="style.css">   
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/671abd8ee7.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo-png.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href='#header'>Home</a></li>
+                <li><a href='#about'>About</a></li>
+                <li><a href='#interests'>Interests</a></li>
+                <li><a href='#projects'>Projects</a></li>
+                <li><a href='#contact'>Contact</a></li>
+                <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>UI/UX Designer</p>
+            <h1>Hi, I'm <span>Anita</span> Sofia <br> from Kenya</h1>
+        </div>
+    </div>
+</div>
+
+    <!-- ----------about---------- -->
+<div id="about">
+    <section id="about" class="about-section">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+               <img src="images/Final.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p class="about-text">
+                    Hello!
+                    I'm a civil engineering student studying in JKUAT currently in my second year. I'm swinging into the data and tech field to take advantage of all the new opportunities available to young people. Looking forward to working together. 
+                </p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web Interfaces</li>
+                        <li><span>Use of Design Software</span><br>Proficient in Autocad, Civilcad, Archicad</li>
+                        <li><span>Graphic Design</span><br>Designing event posters</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023-Current</span><br>Debate and Public Speaking Trainer</li>
+                        <li><span>2024-Current</span><br>UI/UX design of a portfolio website</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</div>
+<!----------------education----------------->
+<div id="education">
+    <h2 class="sub-title">Education</h2>
+    <div class="timeline">
+      
+      <div class="timeline-card">
+        <div class="card-content">
+          <h3>Pangani Girls School</h3>
+          <p>Got my high school diploma in one of the most coveted schools leaving with a mean grade of A. I was a passionate debate club president and capable school leader.</p>
+          <span class="date">2019 – 2022</span>
+        </div>
+      </div>
+      <div class="timeline-card">
+        <div class="card-content">
+          <h3>Short Course</h3>
+          <p>A short programming course on introduction to programming in python and a bit of work on raspberry pico.</p>
+          <span class="date">2023</span>
+        </div>
+      </div>
+      <div class="timeline-card">
+        <div class="card-content">
+          <h3>JKUAT</h3>
+          <p>Currently pursuing my BSc. Civil Engineering in Kenya's best engineering university.</p>
+          <span class="date">2024 – Current</span>
+        </div>
+      </div>
+    </div>
+</div>
+  
+
+<!-- -----------interests--------- -->
+<div id="interests">
+    <div class="container">
+        <h1 class="sub-title">My Interests</h1>
+        <div class="marquee">
+            <div class="marquee-content">
+            <div class="interests-list">
+                <i>🎧</i>
+                <h2>Music</h2>
+                <p>I have always loved music, I don't think I can live without it. My favourite genres are r'n'b and indie music with my top artists being Sombr, Khalid and Clairo.</p>
+                <a href="#"></a>
+            </div>
+            <div class="interests-list">
+                <i>📚</i>
+                <h2>Reading</h2>
+                <p>I love reading books.Everything from fantasy to romance to slice of life. Some of my all time favourites include "The art of racing in the rain" by Garth Stein and "Rootless" by Krystle Zara Appiah.</p>
+                <a href="#"></a>
+            </div>
+            <div class="interests-list">
+                <i>🎭</i>
+                <h2>Public Speaking</h2>
+                <p>Fell in love with the art in my university days. I've taken art in and won several competitions and I also judge and train school kids whenever Iget the chance.</p>
+                <a href="#"></a>
+            </div>
+            <div class="interests-list">
+                <i>🌍</i>
+                <h2>Climate Change</h2>
+                <p>I'm also very passionate about initiativess regarding combating climmate change. Championing tree planting activities as well as joining he public conversation.</p>
+                <a href="#"></a>
+            </div>
+            <!----------repeating to loop------------------->
+            <div class="interests-list">
+                <i>🎧</i>
+                <h2>Music</h2>
+                <p>I have always loved music, I don't think I can live without it. My favourite genres are r'n'b and indie music with my top artists being Sombr, Khalid and Clairo.</p>
+                <a href="#"></a>
+            </div>
+            <div class="interests-list">
+                <i>📚</i>
+                <h2>Reading</h2>
+                <p>I love reading books.Everything from fantasy to romance to slice of life. Some of my all time favourites include "The art of racing in the rain" by Garth Stein and "Rootless" by Krystle Zara Appiah.</p>
+                <a href="#"></a>
+            </div>
+            <div class="interests-list">
+                <i>🎭</i>
+                <h2>Public Speaking</h2>
+                <p>Fell in love with the art in my university days. I've taken art in and won several competitions and I also judge and train school kids whenever Iget the chance.</p>
+                <a href="#"></a>
+            </div>
+            <div class="interests-list">
+                <i>🌍</i>
+                <h2>Climate Change</h2>
+                <p>I'm also very passionate about initiativess regarding combating climmate change. Championing tree planting activities as well as joining he public conversation.</p>
+                <a href="#"></a>
+            </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- ------------projects----------- -->
+<div id="projects">
+    <div class="container">
+      <h1 class="sub-title">My Projects</h1>
+      <div class="projects-list">
+        <a id="top"></a>
+        <div class="project">
+          <img src="images/website image.jpg">
+          <div class="layer">
+            <h3>Websites</h3>
+            <p>These are some of the websites that I've already made</p>
+            <a href="#modal-websites" ><i class="fa-solid fa-code"></i>Click</a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/renders.jpg">
+          <div class="layer">
+            <h3>Renders</h3>
+            <p>Here are some renders that I've done and completed</p>
+            <a href="#modal-renders"><i class="fa-solid fa-crop"></i></a>
+          </div>
+        </div>
+        <div class="project">
+          <img src="images/posters 2.jpg">
+          <div class="layer">
+            <h3>Event Posters</h3>
+            <p>A few of the posters that I've made over the years</p>
+            <a href="#modal-posters"><i class="fa-brands fa-app-store"></i></a>
+          </div>
+        </div>
+      </div>
+</div>
+  <!-- CSS-only MODALS -->
+<div id="modal-websites" class="project-modal">
+    <div class="modal-content">
+      <a href="#top" data-popup="popup1"class="close-btn">&times;</a>
+      <h2>Websites</h2>
+      <p>These are full sites I built using HTML, CSS, anda bit of javascript. More features include responsive design and basic forms.</p>
+      <img src="images/website.jpg" alt="Websites preview">
+      <a href="your-project.pdf" download class="download-btn">Download PDF</a>
+    </div>
+</div>
+  
+<div id="modal-renders" class="project-modal">
+    <div class="modal-content">
+      <a href="#top" class="close-btn">&times;</a>
+      <h2>Renders</h2>
+      <p>These were created AutoCAD, featuring architectural models and designs.</p>
+      <img src="images/AutoCad 1.jpg" alt="Renders preview">
+      <a href="renders-details.pdf" download class="download-btn">Download PDF</a>
+    </div>
+</div>
+  
+<div id="modal-posters" class="project-modal">
+    <div class="modal-content">
+        <a href="#top" class="close-btn">&times;</a>
+      <h2>Event Posters</h2>
+      <p>Posters made in Canva and Photoshop. They include designs for clubs, school events, and social media promos.</p>
+      <img src="images/CUE POSTER (1).png" alt="Poster preview">
+      <a href="posters-info.pdf" download class="download-btn">Download PDF</a>
+    </div>
+</div>
+
+<!--------------contacts---------->
+<div id="contact">
+    <div class="container">
+        <h1 class="sub-title">Contact Me</h1>
+        <div class="row">
+          
+            <div class="contact-left">    
+                
+                <p><i class="fa-solid fa-paper-plane"></i>sofiaanita098@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i>0757163285</p>
+                <div class="social-icons">
+                    <a href="https:/facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https:/twitter.com/"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/anita-sofia-61078633a/"><i class="fa-brands fa-linkedin"></i></a>
+                    <a href="https:/instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                <a href="images/Anita Sofia CV.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet" >
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="Email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright <i class="fa-solid fa-heart"></i> Anita</p>
+    </div>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab")
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbzQhmIAsBhaC62NKxsJVbtZvtYbY7hd7QGJnXV_8b4oqJMYRxR8Bzi1gzdxZk4Hzf-4qQ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully!"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>

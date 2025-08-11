@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced HTML5 Content & Form</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        header, main, footer {
+            margin-bottom: 30px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+        th, td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+        fieldset {
+            border: 2px solid #ccc;
+            padding: 15px;
+            margin-bottom: 20px;
+        }
+        legend {
+            font-weight: bold;
+        }
+        label {
+            display: block;
+            margin-top: 10px;
+        }
+        input, select, textarea {
+            width: 100%;
+            padding: 8px;
+            margin-top: 4px;
+        }
+        input[type="submit"] {
+            background: #007BFF;
+            color: white;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+        input[type="submit"]:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>✨MORE EXCLUSIVE TOM CONTENT! ✨</h1>
+    <p>This is my week 2 assignment submission. This time, I've included images and videos of my cat as well as one of his fav songs to chill to 😌. Consider listening to it as you read this page.</p>
+</header>
+
+<main>
+    <section>
+         <figure>    
+            <img src="media/New pic.jpg" alt="Tom's Image">
+            <figcaption>🎉Sir Leon Thomas the Third 🎉</figcaption>
+        </figure>
+        <figure>
+            <figcaption>🎶Listen to his favourite song as you view this week's exclusive issue 🎶</figcaption>
+            <audio controls>
+                <source src="media/mystery of love.unknown" type="audio/mpeg">
+            </audio>
+        </figure>
+    </section>
+    <!-- Section 1: Lists -->
+    <section>
+        <h2>GET TO KNOW TOM!</h2>
+        <p>Now we're going to explore a bit more about Sir Tom</p>
+        <h3>Favorite Things To Do</h3>
+        <ol>
+            <li>Getting back and neck scratches</li>
+            <li>Frolicking and sleeping in the sun</li>
+            <li>Taking naps</li>
+        </ol>
+        <section>
+            <figure>
+                <video controls width="400">
+                    <source src="media/Tom back scratches.mp4" type="video/mp4">
+                </video>
+            <figcaption>Here is a video of him getting scratches.</figcaption>
+            </figure>
+        </section>
+
+        <h3>Tricks He can Perform For Pay</h3>
+        <ul>
+            <li>Getting on two legs</li>
+            <li>Jumping up to high surfaces</li>
+            <li>Catching mice and snakes</li>
+        </ul>
+        <section>
+            <figure>
+                <video controls width="400">
+                    <source src="media/Tom eating vid.mp4" type="video/mp4">
+                </video>
+            <figcaption>Here is a video of him getting up to get some fish.🤭</figcaption>
+            </figure>
+        </section>
+    </section>
+
+    <!-- Section 2: Table -->
+    <section>
+        <h2>Thomas Timetable</h2>
+        <p>A look at a few of Tom's activities.🎭 For privacy reasons, the timetable is very limited.</p>
+        <table>
+            <thead>
+                <tr>
+                    <th>Day</th>
+                    <th>Action</th>
+                    <th>Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Monday</td>
+                    <td>Frolicking in sun</td>
+                    <td>10:00 AM - 12:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Wednesday</td>
+                    <td>Big fat nap in the sun</td>
+                    <td>2:00 PM - 4:00 PM</td>
+                </tr>
+                <tr>
+                    <td>Friday</td>
+                    <td>Looking for snakes and rodents</td>
+                    <td>9:00 PM - 11:00 PM</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <!-- Section 3: HTML5 Form -->
+    <section>
+        <h2>Registration Form</h2>
+        <p>Sign up for a weekly Thomas newsletter!✨</p>
+        <form action="#" method="post">
+            <fieldset>
+                <legend>Personal Information</legend>
+
+                <label for="fullname">Full Name:</label>
+                <input type="text" id="fullname" name="fullname" placeholder="John Doe" required minlength="3">
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="you@example.com" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" placeholder="e.g. 0712345678" 
+                       pattern="[0-9]{10}" required>
+
+                <label for="dob">Date of Birth:</label>
+                <input type="date" id="dob" name="dob" required>
+                <label for="country">Country:</label>
+                <select id="country" name="country" required>
+                    <option value="">--Select Country--</option>
+                    <option value="kenya">Kenya</option>
+                    <option value="uganda">Uganda</option>
+                    <option value="tanzania">Tanzania</option>
+                    <option value="tanzania">Other</option>
+                </select>
+                <legend>Additional Comments</legend>
+                <label for="comments">Your Message:</label>
+                <textarea id="comments" name="comments" rows="4" placeholder="Enter your comments here..."></textarea>
+            </fieldset>
+            <input type="submit" value="Submit">
+        </form>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; Anita. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
