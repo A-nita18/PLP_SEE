@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Another HTML Assignment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <h1>✨ANOTHER TOM EXCLUSIVE✨</h1>
+        <p>Let's dive some more into Sir Thomas' life 🎯</p>
+    </header>
+
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><a href="#intro">Home</a></li>
+            <li><a href="#media">Media</a></li>
+            <li><a href="#table">Table</a></li>
+            <li><a href="#form">Form</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Intro Section -->
+    <main>
+        <section id="intro" class="intro">
+            <h2>Welcome ✨</h2>
+            <p>
+               And we are back into another exclusive edition of the Sir Thomas magazine. This time, we've upgraded the magazine to have some more ✨style✨.
+               Let's dive into it!
+            </p>
+        </section>
+
+        <!-- Media Section -->
+        <section id="media">
+            <h2>🎬 Media Showcase</h2>
+            <div class="media-grid">
+                <figure>
+                    <img src="media/sousuke.png" alt="Sample image">
+                    <figcaption>My reaction when I see my cat 😭</figcaption>
+                </figure>
+
+                <figure>
+                    <audio controls>
+                        <source src="media/Invisible ink.unknown" type="audio/mpeg">
+                    </audio>
+                    <figcaption>One of Tom's favourite timeless pieces</figcaption>
+                </figure>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="articles" >
+            <h2 id="articles-heading">Exclusive Feature!✨</h2>
+      
+            <article aria-labelledby="article1-heading">
+              <h3 id="article1-heading">WHERE DID HE COME FROM?!😌</h3>
+              <p>Sir Leon Thomas spent most of his childhood in the Sisters of Notredame convent where he was born and raised with his siblings.
+                He was the fourth of a strong litter of seven and was gracefully handed over to me in a lovely box when I went to pick him up.
+              </p>
+            </article>
+      
+            <article aria-labelledby="article2-heading">
+              <h3 id="article2-heading">HOW OLD IS HE?!👀</h3>
+              <p>He prefers not to share his age. He is rather appalled that we dared to ask.
+                "A person's value is not found in their age"
+              </p>
+            </article>
+      
+            <article aria-labelledby="article2-heading">
+              <h3 id="article2-heading">ANY PLANS FOR THE FUTURE?!😤</h3>
+              <p>"Time is a social construct. It is a human flaw to be always caught up in either past or future. I treasure the moment, that's why I take frequent naps."
+                He however, urges us to invest in the stock market as early as yesterday.</p>
+            </article>
+          </section>
+
+        <!-- Table Section -->
+        <section id="table">
+            <h2>📊 Time Table</h2>
+            <p>Here's some more info on Tom's routine:</p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Tuesday</th>
+                        <th>Thursday</th>
+                        <th>Sunday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:00am-11:00am</td>
+                        <td>Stays by the gate observing passers-by</td>
+                        <td>Reads the morning newspaper</td>
+                        <td>Goes to church</td>
+                    </tr>
+                    <tr>
+                        <td>1:00pm-3:00pm</td>
+                        <td>Does his weekly yoga routine</td>
+                        <td>Checks up on his finances</td>
+                        <td>Has late brunch with friends</td>
+                    </tr>
+                    <tr>
+                        <td>5:00pm-7:00pm</td>
+                        <td>Hangs out with the chicken</td>
+                        <td>Goes for evening jog</td>
+                        <td>Watches play at local theatre</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <!-- Form Section -->
+        <section id="form">
+            <h2>📝 Feedback Form</h2>
+            <p>And that's all for today folks, do renew your subscription down below ✨</p>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder="e.g. Tomoko Brian" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder="e.g. johntomoko@gmail.com" required>
+
+                <label for="favorite">What would you like to know about Tom next?</label>
+                <select id="favorite" name="favorite">
+                    <option value="">--Select One--</option>
+                    <option>Hottest travel spots</option>
+                    <option>Secret restaurant hidden gems</option>
+                    <option>Fashion and style tips</option>
+                </select>
+
+                <label for="comments">Comments:</label>
+                <textarea id="comments" name="comments" placeholder="e.g. Write your comments here please" ></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; Anita. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
